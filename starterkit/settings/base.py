@@ -26,7 +26,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'starter.urls'
+ROOT_URLCONF = 'starterkit.urls'
 
 TEMPLATES = [
     {
@@ -44,7 +44,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'starter.wsgi.application'
+WSGI_APPLICATION = 'starterkit.wsgi.application'
 
 
 LANGUAGE_CODE = 'en-us'
